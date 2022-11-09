@@ -52,11 +52,11 @@ nav a:hover {
 }
 
 .produtos li:hover {
-	border: #C78C19;
+	border-color: #C78C19;
 }
 
 .produtos li:active {
-	border-color: #088C19;
+	border-color: #088C19;	
 }
 
 .produtos li:hover h2 {
@@ -84,11 +84,10 @@ footer {
 	padding: 40px 0;
 }
 
-.copyrigth {
+.copyright {
 	color: #FFFFFF;
 	font-size: 13px;
 	margin: 20px 0 0;
-
 }
 
 main {
@@ -100,8 +99,8 @@ form {
 	margin: 40px 0;
 }
 
-form label, form p {
-	display: block;
+form label, form legend {
+	display:block;
 	font-size: 20px;
 	margin: 0 0 10px;
 }
@@ -115,4 +114,37 @@ form label, form p {
 
 .checkbox {
 	margin: 20px 0;
+}
+
+.enviar {
+	width:40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}
+
+table {
+	margin: 20px 0 40px;
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
 }
